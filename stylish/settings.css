@@ -1,0 +1,71 @@
+
+
+form{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  max-width: 400px;
+}
+input[type=text], input[type=email], input[type=password]{
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border-radius: 7px;
+  border: none;
+}
+
+input[type=file]{
+  padding: 7px;
+  margin: 7px;
+  width: 50%;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  background-color:rgba(47, 79, 79, 0.582);
+  color: white;
+}
+input[type=radio]{
+  cursor: pointer;
+}
+#head{
+  background-color:rgba(0, 0, 139, 0.404);
+  font-size: 30px;
+  text-align: center;
+  color: beige;
+  padding: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  width: 96%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+}
+#settings_profile{
+  background-color:rgba(0, 0, 139, 0.404);
+  font-size: 30px;
+  text-align: center;
+  color: beige;
+  padding: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  width: 96%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#error{
+  text-align: center;
+  padding: 0.5em;
+  /* background-color: rgba(245, 245, 220, 0.781); */
+  color: red;
+  max-width: 400px;
+  margin: auto;
+  display: none;
+}
+.profile_settings{
+  width: 170px;
+  height: 170px;
+  border-radius:7px;
+  margin: 7px;
+}
